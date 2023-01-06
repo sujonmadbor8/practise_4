@@ -1,0 +1,172 @@
+.red {
+    background-color: red;
+}
+.orange {
+    background-color: orange;
+}
+.purple {
+    background-color: purple;
+}
+.green {
+    background-color: green;
+}
+.red,
+.orange,
+.purple,
+.green {
+    padding: 10px 30px;
+    margin: 10px;
+    color: #fff;
+}
+
+.my_div {
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+}
+legend {
+    text-align: center;
+}
+table,
+th,
+td {
+    border: 5px solid red;
+    border-collapse: collapse;
+}
+td,
+th {
+    padding: 10px 20px;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+    resize: none;
+}
+h1 {
+    text-align: center;
+}
+
+input[type="checkbox"] {
+    accent-color: orange;
+}
+input[type="radio"] {
+    accent-color: red;
+}
+input[type="range"] {
+    accent-color: yellow;
+}
+progress {
+    accent-color: green;
+}
+#container {
+    width: 100px;
+    height: 500px;
+    border: 1px solid red;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+#container div {
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    margin: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item {
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.item-1 {
+    background-color: rgb(196, 243, 245);
+}
+.item-2 {
+    background-color: rgb(160, 230, 139);
+}
+.item-3 {
+    background-color: rgb(88, 154, 180);
+}
+.item-4 {
+    background-color: rgb(236, 119, 187);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0 -8px; */
+    padding: 0 50px;
+    background-color: rgb(87, 97, 41);
+}
+nav ol {
+    /* display: flex; */
+}
+nav ol li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+nav ol li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+}
+nav ol li a:hover {
+    box-shadow: 5px 5px 30px rgb(197, 138, 29);
+    border-radius: 5px;
+    background-color: lightsalmon;
+}
+
+/* grid  */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #2196f3;
+    /* padding: 10px; */
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+
+    font-size: 30px;
+    /* text-align: center; */
+}
+.item-1,
+.item-4 {
+    grid-column: 1 / span 3;
+    min-height: 15px;
+    background-color: rgb(50, 71, 71);
+}
+
+.item-2 img {
+    max-width: 350px;
+    border-radius: 50%;
+}
+
+.item-3 h1 {
+    text-align: left;
+}
+.item-2,
+.item-3 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.item-4 {
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
